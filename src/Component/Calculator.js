@@ -1,38 +1,51 @@
 import React, { Component } from 'react';
 import './Calculator.css';
+import calculate from '../logic/calculate.js ';
 
 class Calculator extends Component {
   constructor(props) {
     super(props);
-    this.props = props;
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
+
+  handleCalculate = (event) => {
+    this.setState((state) => calculate(state, event.target.textContent));
   }
 
   render() {
+    const { total, next, operation } = this.state;
     return (
-      <div className="calculator-grid">
-        <div className="output">
-          <div data-previous-operand className="previous-operand">123</div>
-          <div data-current-operand className="current-opperand">1231</div>
-        </div>
-        <button type="button" className="data-all-clear">AC</button>
-        <button type="button" className="data-plus-minus">+/-</button>
-        <button type="button" className="data-percentage">%</button>
-        <button type="button" className="data-operation">÷</button>
-        <button type="button" className="data-number">7</button>
-        <button type="button" className="data-number">8</button>
-        <button type="button" className="data-number">9</button>
-        <button type="button" className="data-operation">*</button>
-        <button type="button" className="data-number">4</button>
-        <button type="button" className="data-number">5</button>
-        <button type="button" className="data-number">6</button>
-        <button type="button" className="data-operation">-</button>
-        <button type="button" className="data-number">1</button>
-        <button type="button" className="data-number">2</button>
-        <button type="button" className="data-number">3</button>
-        <button type="button" className="data-operation">+</button>
-        <button type="button" className="data-number" id="span-two">0</button>
-        <button type="button" className="data-number">.</button>
-        <button type="button" className="data-equals">=</button>
+      <div className="grid-container">
+        <p className="item0">
+          {total}
+          {' '}
+          {operation}
+          {' '}
+          {next}
+        </p>
+        <button onClick={this.handleCalculate} type="button" className="item1">AC</button>
+        <button onClick={this.handleCalculate} type="button" className="item2">+/-</button>
+        <button onClick={this.handleCalculate} type="button" className="item3">%</button>
+        <button onClick={this.handleCalculate} type="button" className="item4">÷</button>
+        <button onClick={this.handleCalculate} type="button" className="item5">7</button>
+        <button onClick={this.handleCalculate} type="button" className="item6">8</button>
+        <button onClick={this.handleCalculate} type="button" className="item7">9</button>
+        <button onClick={this.handleCalculate} type="button" className="item8">x</button>
+        <button onClick={this.handleCalculate} type="button" className="item9">4</button>
+        <button onClick={this.handleCalculate} type="button" className="item10">5</button>
+        <button onClick={this.handleCalculate} type="button" className="item11">6</button>
+        <button onClick={this.handleCalculate} type="button" className="item12">-</button>
+        <button onClick={this.handleCalculate} type="button" className="item13">1</button>
+        <button onClick={this.handleCalculate} type="button" className="item14">2</button>
+        <button onClick={this.handleCalculate} type="button" className="item15">3</button>
+        <button onClick={this.handleCalculate} type="button" className="item16">+</button>
+        <button onClick={this.handleCalculate} type="button" className="item17">0</button>
+        <button onClick={this.handleCalculate} type="button" className="item18">.</button>
+        <button onClick={this.handleCalculate} type="button" className="item19">=</button>
       </div>
     );
   }
