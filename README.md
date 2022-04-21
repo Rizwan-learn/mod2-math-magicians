@@ -13,7 +13,7 @@ For the link to the live demo, [Click here]()
 ## Getting Started
 To get a local copy up and running you just need to follow the following steps;
 - Clone this repository with
-git clone `https://github.com/Tufahel/math-magician.git` using your terminal or command line.
+git clone `https://github.com/Rizwan/math-magician.git` using your terminal or command line.
 - run code `.` to open it in vscode.
 - run `npm install` in terminal.
 - run `npm run build`.
