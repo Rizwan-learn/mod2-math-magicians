@@ -1,17 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  font-weight: normal;
-  font-family: sans-serif;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-}
-
-.calculator-grid {
+.grid-container {
   display: grid;
   justify-content: center;
   align-content: center;
@@ -21,44 +8,44 @@ body {
   color: black;
 }
 
-.calculator-grid > button {
-  cursor: pointer;
-  font-size: 2rem;
-  border: 1px solid black;
-  outline: none;
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
-#span-two {
-  grid-column: span 2;
+button {
+  padding: 30px;
 }
 
-.output {
-  grid-column: 1/ -1;
-  background-color: rgba(0, 0, 0, 0.75);
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  flex-direction: column;
+p {
   padding: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.item17 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item0 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: rgb(164, 164, 164) !important;
   color: white;
-  word-wrap: break-word;
-  word-break: break-all;
+  text-align-last: right;
+  margin: 0;
 }
 
-.output .previous-operand {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1.5rem;
-}
-
-.output .current-opperand {
+.item4,
+.item8,
+.item12,
+.item16,
+.item19 {
+  background-color: rgb(255, 81, 0) !important;
   color: white;
-  font-size: 3rem;
-}
-
-.data-operation {
-  background-color: orangered;
-}
-
-.data-equals {
-  background-color: orangered;
 }
