@@ -1,0 +1,13 @@
+.home {
+  text-align: left;
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+.home-tittle {
+  margin-left: 10px;
+  font-size: 30px;
+  align-self: center;
+}
