@@ -1,10 +1,14 @@
 
-## This is a basic calculator project using basic React.
+## Math Magicaian is a calculator app where users are able to perform simple equation (addition,subtruction,divition etc)
 
 ## Built With
 - HTML
 - Javascript
 - React
+- Netilfy 
+- ESlint 
+- Stylelint
+- React-Router-Dom
 - VScode
 
 ## Live Demo
