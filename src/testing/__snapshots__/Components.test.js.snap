@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test snapshot for components Create a Caculator snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Calculator-page"
+  >
+    <div
+      class="Calculator-text"
+    >
+      <h1>
+         WELCOME!! LETS DO SOME MATHS
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <div
+      class="grid-container"
+    >
+      <p
+        class="item0"
+      >
+          
+      </p>
+      <button
+        class="item1"
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        class="item2"
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        class="item3"
+        type="button"
+      >
+        %
+      </button>
+      <button
+        class="item4"
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        class="item5"
+        type="button"
+      >
+        7
+      </button>
+      <button
+        class="item6"
+        type="button"
+      >
+        8
+      </button>
+      <button
+        class="item7"
+        type="button"
+      >
+        9
+      </button>
+      <button
+        class="item8"
+        type="button"
+      >
+        x
+      </button>
+      <button
+        class="item9"
+        type="button"
+      >
+        4
+      </button>
+      <button
+        class="item10"
+        type="button"
+      >
+        5
+      </button>
+      <button
+        class="item11"
+        type="button"
+      >
+        6
+      </button>
+      <button
+        class="item12"
+        type="button"
+      >
+        -
+      </button>
+      <button
+        class="item13"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        class="item14"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="item15"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="item16"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="item17"
+        type="button"
+      >
+        0
+      </button>
+      <button
+        class="item18"
+        type="button"
+      >
+        .
+      </button>
+      <button
+        class="item19"
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`test snapshot for components Create a Home snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="home"
+  >
+    <h3
+      class="home-tittle"
+    >
+       Welcome to my page!
+    </h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`test snapshot for components Create a Quote snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="quote-body"
+  >
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    </p>
+    <br />
+    <br />
+    <span
+      class="writer"
+    >
+       --Rizwan Hasan 
+    </span>
+  </div>
+</DocumentFragment>
+`;
